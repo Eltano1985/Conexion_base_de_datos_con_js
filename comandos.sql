@@ -45,3 +45,5 @@ ALTER TABLE repuestos ADD COLUMN stock INT;
 
 /* ----------------- FIN UPDATE --------------------*/
 
+/* ------------------ DELETE ---------------------*/
+DELETE FROM repuestos WHERE id=1;
