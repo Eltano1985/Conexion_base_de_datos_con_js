@@ -35,6 +35,10 @@ SHOW TABLES;
 /* Ver los registros de una tabla */
 SELECT * FROM repuestos;
 
+/*Detalla los campos de la tabla*/
+DESCRIBE repuestos;
+
+
 /* ----------------- FIN READ --------------------- */
 
 /* ----------------- UPDATE ----------------------- */
@@ -46,4 +50,7 @@ ALTER TABLE repuestos ADD COLUMN stock INT;
 /* ----------------- FIN UPDATE --------------------*/
 
 /* ------------------ DELETE ---------------------*/
+
 DELETE FROM repuestos WHERE id=1;
+
+/* ------------------ DELETE ---------------------*/
